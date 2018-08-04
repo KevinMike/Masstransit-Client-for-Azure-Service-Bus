@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  masstransitfeeder:
+    image: masstransitfeeder
+    build:
+      context: .\MassTransitFeeder
+      dockerfile: Dockerfile
