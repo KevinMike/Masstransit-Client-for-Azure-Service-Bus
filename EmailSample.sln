@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masstransit", "Masstransit\Masstransit.csproj", "{A848B8C8-52C0-4EAC-91AA-B22678F52B2E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueConsumer", "..\Azure Functions\QueueConsumer\QueueConsumer.csproj", "{FDBBF0C8-D2A3-4A5D-81EE-58EE895FB664}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A848B8C8-52C0-4EAC-91AA-B22678F52B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A848B8C8-52C0-4EAC-91AA-B22678F52B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A848B8C8-52C0-4EAC-91AA-B22678F52B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBBF0C8-D2A3-4A5D-81EE-58EE895FB664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBBF0C8-D2A3-4A5D-81EE-58EE895FB664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBBF0C8-D2A3-4A5D-81EE-58EE895FB664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBBF0C8-D2A3-4A5D-81EE-58EE895FB664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

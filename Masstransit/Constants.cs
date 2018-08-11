@@ -10,7 +10,7 @@ namespace Masstransit
     {
         public const string ConnectionString = "sb://emailservicenamespace.servicebus.windows.net/";
         public const string KeyName = "RootManageSharedAccessKey";
-        public const string SharedAccessKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        public const string SharedAccessKey = "e8INJF1q5NA9weBZVbUZFC7nOpv0D8cPaZUJ+xTztJM=";
         public const string QueueName = "emailqueue";
     }
 }
